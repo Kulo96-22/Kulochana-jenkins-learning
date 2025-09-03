@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_BFLASK_IMAGE = 'Kulo96/jenkins-docker-app2'
+        DOCKER_BFLASK_IMAGE = 'kulochana/jenkins-docker-app2'
         DOCKER_REGISTRY_CREDS = 'docker-jenkins-token-1'
     }
 
