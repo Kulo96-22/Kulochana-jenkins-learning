@@ -16,7 +16,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                bat "docker run my-flask-app python -m pytest app/tests/"
+                bat "docker run my-flask-app python -m pytest app/test/"
             }
         }
 
