@@ -24,7 +24,7 @@ pipeline {
             steps {
                 withCredentials([
                     usernamePassword(
-                        credentialsId: "${DOCKER_REGISTRY_CREDS}",
+                        credentialsId: "docker-jenkins-token-1",
                         passwordVariable: 'DOCKER_PASSWORD',
                         usernameVariable: 'DOCKER_USERNAME'
                     )
